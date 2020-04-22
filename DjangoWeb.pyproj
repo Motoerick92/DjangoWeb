@@ -42,6 +42,9 @@
     <Compile Include="blog\apps.py" />
     <Compile Include="blog\migrations\__init__.py" />
     <Compile Include="blog\models.py" />
+    <Compile Include="blog\templates\blog\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="blog\tests.py" />
     <Compile Include="blog\urls.py">
       <SubType>Code</SubType>
@@ -76,6 +79,7 @@
     <Content Include="blog\static\css\blog.css" />
     <Content Include="blog\templates\blog\base.html" />
     <Content Include="blog\templates\blog\post_detail.html" />
+    <Content Include="blog\templates\blog\post_edit.html" />
     <Content Include="blog\templates\blog\post_list.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
